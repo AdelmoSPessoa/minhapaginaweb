@@ -1,1 +1,4 @@
-window.alert("Bem vindo a minha página web!")
+function bemvindo() {
+	window.alert("Seja bem vindo(a) a minha página web!")
+}
+bemvindo()

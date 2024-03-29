@@ -1,6 +1,15 @@
-.titulo {
-	background-color: red;
+:root {
+	--color-primary: #00ffff;
+	--color-secundary: blue;
+	--color-tertiary: #61bd8c;
+}
+
+.titulo-pagina {
+	background-color: var(--color-primary);
+	margin: 30px;
 }
 .paragraf {
-	background-color: green;
+	background-color: var(--color-secundary);
+	margin: 30px;
+	color: var(--color-tertiary);
 }
